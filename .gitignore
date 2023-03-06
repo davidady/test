@@ -1,4 +1,6 @@
 local player = game.Players.LocalPlayer
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/topillesrevenge/Streamable-Silent/main/Side"))()
+Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
 local Players = game:GetService("Players")
